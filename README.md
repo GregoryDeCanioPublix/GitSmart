@@ -75,7 +75,7 @@ git clone https://github.com/GrossProfitSmart/GitSmart.git
 
 3. Change directory again so you can start working in that repo!   
 Example code:   
-Set-Location *C:\Users\P1603119\Desktop\GitHub\GitSmart\GitSmart*
+Set-Location *C:\Users\P1603119\Desktop\GitHub\GitSmart*
 
 
 ## Favorite Git Resources:   
