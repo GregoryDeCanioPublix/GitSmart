@@ -66,7 +66,7 @@ git config --global --replace-all http.proxy http:\domain.local\**PublixUsername
 
 **Now that you machine is configured, follow these steps:**    
 1. Change directory to where you want to maintain GitHub files      
-For example: *C:\Users\P1603119\Desktop\GitHub*   
+For example: Set-Location *C:\Users\P1603119\Desktop\GitHub*   
 
 2. Clone to that directory   
 Example code:   
@@ -75,7 +75,7 @@ git clone https://github.com/GrossProfitSmart/GitSmart.git
 
 3. Change directory again so you can start working in that repo!   
 Example code:   
-Set-Location C:\Users\P1603119\Desktop\GitHub\GitSmart\GitSmart
+Set-Location *C:\Users\P1603119\Desktop\GitHub\GitSmart\GitSmart*
 
 
 ## Favorite Git Resources:   
