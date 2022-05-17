@@ -66,17 +66,16 @@ git config --global --replace-all http.proxy http:\domain.local\**PublixUsername
 
 **Now that you machine is configured, follow these steps:**    
 1. Change directory to where you want to maintain GitHub files      
-For example: *Set-Location Y:\GitHub*   
-*Y drive seems to work when the C drive does not
+For example: *C:\Users\P1603119\Desktop\GitHub*   
 
 2. Clone to that directory   
 Example code:   
-git clone https://github.com/GrossProfitSmart/fresh_forecasts.git   
+git clone https://github.com/GrossProfitSmart/GitSmart.git   
 *(This will create a new folder in that directory which is where your git repository lives)*
 
 3. Change directory again so you can start working in that repo!   
 Example code:   
-Set-Location Y:\GitHub\fresh_forecasts
+Set-Location C:\Users\P1603119\Desktop\GitHub\GitSmart\GitSmart
 
 
 ## Favorite Git Resources:   
