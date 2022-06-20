@@ -1,11 +1,38 @@
+<a name="BackToTop"></a>
+
 # GitSmart
+
+## Table of Contents
+- [Git_Speedrun](#Git_Speedrun)
+- [Git_Commands_In_Detail](#Git_Commands_In_Detail)
+- [Setting_Up_GitHub_for_the_First_Time?](#Setting_Up_GitHub_for_the_First_Time?)
+- [Favorite_Git_Resources](#Favorite_Git_Resources)
 
 Unless stated otherwise, assume you are running all commands in Windows PowerShell.
 
+---
 
-## Routine Git Commands  
-**Download the latest changes in the project**  
-git pull *REMOTE* *name-of-branch*
+<a name="Git_Speedrun"></a>  
+
+## Git_Speedrun  
+Set-Location C:\Users\P1603119\Desktop\GitHub\GitSmart  
+git remote update  
+git status  
+*Pull is only needed if your branch is behind origin/main*   
+git pull origin main  
+git add - A  
+git commit -a -m "COMMENT"  
+git push origin main  
+
+---
+
+<a name="Git_Commands_In_Detail"></a>  
+
+## Git_Commands_In_Detail  
+**To work on an up-to-date copy of the project, pull to get all the changes made by users**   
+*(When you clone a repository, REMOTE is typically the origin)*    
+git pull *REMOTE* *name-of-branch*  
+git pull origin main  
 
 **Create a new branch**  
 git checkout -b *name-of-branch*
@@ -19,6 +46,9 @@ git checkout *name-of-branch*
 
 **Publish local branch to your remote repository:**    
 git push -u origin *local-branch*   
+
+**Update all of your branches (that are set to track remote ones). This does not update or make any actual changes**  
+git remote update   
 
 **To check which files have been changed:**    
 git status  
@@ -38,19 +68,17 @@ git push *remote* *name-of-branch*
 **To Push to main:**   
 git push origin main
 
-**To work on an up-to-date copy of the project, pull to get all the changes made by users**   
-*(When you clone a repository, REMOTE is typically the origin)*    
-git pull *REMOTE* *name-of-branch*    
-git pull origin main   
-
 **To list all branches in local and remote repositories**   
 git branch -a
 
 **To list only branches in the remote repository**   
 git branch -r
 
+---
 
-## Setting up GitHub for the first time? 
+<a name="Setting_Up_GitHub_for_the_First_Time?"></a>
+
+## Setting_Up_GitHub_for_the_First_Time? 
 First, make sure you set up a GitHub account and also downloaded Git to your computer    
 *Do not use your personal GItHub account. Make a new one!*    
 
@@ -77,6 +105,11 @@ git clone https://github.com/GrossProfitSmart/GitSmart.git
 Example code:   
 Set-Location *C:\Users\P1603119\Desktop\GitHub\GitSmart*
 
+<a name="Favorite_Git_Resources"></a>
 
-## Favorite Git Resources:   
+---
+
+## Favorite_Git_Resources   
 https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html
+
+[Back to Top](#BackToTop)
